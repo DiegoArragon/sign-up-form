@@ -1,4 +1,8 @@
-
+@charset "utf-8";
+/* CSS Document */
+/* Theme Name: Sign Up Form
+Author: Mariusz Kozak 
+Copyright 2021. All rights reserved */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
@@ -22,7 +26,7 @@ body {
   display: grid;
   justify-content: center;
   align-items: center;
-  color: $clr-gray500;
+  color: #425a65;
 }
 
 .form {
@@ -48,7 +52,7 @@ body {
 .form__input {
     width: 100%;
     height: 100%;
-    border: 2px solid $clr-gray200;
+    border: 2px solid #425a65;
     border-radius: 0.5rem;
     font-family: inherit;
     font-weight: inherit;
@@ -56,13 +60,13 @@ body {
     outline: none;
     padding: 1.25rem;
     background: none;
-
+}
 .form:hover {
       border-color: grey;
     }
 
 :focus {
-      border-color: $clr-primary-dark;
+      border-color: #425a65;
     }
 
 label {
@@ -74,13 +78,14 @@ label {
     transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
   }
 
-  .form__button {
+.form__button {
     display: block;
     margin-left: auto;
     padding: 0.75rem 2rem;
-    background-color: $clr-primary;
+    background-color: #6b7e86;
     font-family: inherit;
     font-weight: inherit;
+    color: whitesmoke;
     border-radius: 0.5rem;
     outline: none;
     border: none;
@@ -88,7 +93,7 @@ label {
     transition: background-color 200ms ease-in;
   }
 .form__button:hover {
-      background-color: $clr-primary-dark;
+      background-color: #425a65;
     }
 
 
